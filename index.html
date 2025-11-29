@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+        <button id="dark-toggle" aria-label="Chuyển chế độ tối" title="Dark mode toggle">
+            <span class="toggle-icon"></span>
+        </button>
+        <h1>Todo List</h1>
+        <form id="todo-form" autocomplete="off" class="input-group">
+            <input type="text" id="todo-input" placeholder="Nhập việc cần làm..." required>
+            <button type="submit" id="add-btn">Thêm</button>
+        </form>
+        <ul id="todo-list">
+            <!-- Todo items ở đây -->
+        </ul>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
